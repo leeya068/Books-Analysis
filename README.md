@@ -1,33 +1,40 @@
-# Anatomy of a Bestseller: Books Data Analysis
+# Books Sales and Ratings Analysis
 
-## Project Description
-This project explores a dataset of book sales, ratings, and revenue to answer key questions:
-- Do higher-rated books sell more?
-- Does author reputation influence sales?
-- How does price affect book sales?
-- Which genres dominate bestsellers?
+Analyze and visualize book sales, ratings, and trends using the Kaggle **Books: Sales and Ratings** dataset. This project explores patterns across genres, authors, prices, and publication years to uncover insights about what drives book popularity and revenue.
 
-The analysis includes scatter plots, correlation heatmaps, bestseller threshold analysis, and top genres visualizations.
+---
 
-## Dataset
-Source: [Books Sales and Ratings on Kaggle](https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings)
+## 📋 Project Overview
 
-## Tech Stack
-- Python
-- Pandas
-- NumPy
-- Matplotlib
+This project aims to answer questions like:
 
-## Key Insights
-- Book Average Rating has a weak/moderate positive correlation with units sold.
-- Author rating shows a stronger correlation with book sales.
-- Lower-priced books tend to sell more, but bestsellers span a range of prices.
-- Top genres among bestsellers include [list top genres from your analysis].
+- Which genres sell the most units?  
+- Do higher-rated books sell more copies?  
+- How does price affect sales?  
+- Which authors generate the most revenue?  
+- How do publishing years relate to book sales?
 
-## How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the notebook or script
+The analysis is done entirely using Python scripts with **Pandas, Matplotlib, and Seaborn**, and all visualizations are saved to an `images/` folder.
 
+---
 
+## 📂 Dataset
+
+**Source:** [Books Sales and Ratings - Kaggle](https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings)
+
+Key columns include:
+
+- `Publishing Year` – Year the book was published  
+- `Book Name` – Title of the book  
+- `Author` – Author name  
+- `language_code` – Language code  
+- `Author_Rating` – Rating of the author  
+- `Book_average_rating` – Average reader rating  
+- `Book_ratings_count` – Number of ratings  
+- `genre` – Book genre  
+- `gross sales` – Total sales revenue  
+- `publisher revenue` – Revenue earned by the publisher  
+- `sale price` – Price of the book  
+- `sales rank` – Sales performance rank  
+- `units sold` – Total units sold  
 
