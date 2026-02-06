@@ -24,12 +24,10 @@ Source: [Books Sales and Ratings on Kaggle](https://www.kaggle.com/datasets/thed
 - Lower-priced books tend to sell more, but bestsellers span a range of prices.
 - Top genres among bestsellers include [list top genres from your analysis].
 
-## Visualizations
-![Author Rating vs Units Sold](images/scatter_author_vs_units.png)
-![Book Rating vs Units Sold](images/scatter_rating_vs_units.png)
-![Price vs Units Sold](images/scatter_price_vs_units.png)
-![Feature Correlation Heatmap](images/heatmap_correlation.png)
-![Top Genres](images/top_genres.png)
-![Bestseller Comparison](images/bestseller_comparison.png)
+## How to Run
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the notebook or script
+
 
 
