@@ -36,5 +36,12 @@ Key columns include:
 - `publisher revenue` – Revenue earned by the publisher  
 - `sale price` – Price of the book  
 - `sales rank` – Sales performance rank  
-- `units sold` – Total units sold  
+- `units sold` – Total units sold
 
+---
+
+## 📊 Project Presentation
+
+A visual walkthrough of the analysis, insights, and charts is available below:
+
+🔗 **[View the Canva Presentation](https://www.canva.com/design/DAHAkNyao9s/DHY1iHGSSrJouY2vTch1Dw/view?utm_content=DAHAkNyao9s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h229c58f122)**
